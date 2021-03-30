@@ -73,6 +73,7 @@ endif()
    SetArm.srv
    SetHover.srv
    SetTakeoffLand.srv
+   SetDemo.srv
 )
 
 

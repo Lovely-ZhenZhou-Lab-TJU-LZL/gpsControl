@@ -91,6 +91,7 @@ add_executable(quad_pos_ctrl_node src/quad_pos_ctrl_node.cpp)
 # add_executable(test_takeoff_node3 test/test_takeoff_node3.cpp)
 # add_executable(test_takeoff_node4 test/test_takeoff_node4.cpp)
 add_executable(testTaskMode test/testTaskMode.cpp)
+add_executable(testTaskMode2 test/testTaskMode2.cpp)
 #add_executable(test_sample_mocap test/test_sample_mocap.cpp)
 #add_executable(linear_optimal_test test/linear_optimal_test.cpp)
 #add_executable(nonlinear_optimal_test2 test/nonlinear_optimal_test2.cpp)
@@ -139,6 +140,10 @@ target_link_libraries(quad_pos_ctrl_node
 target_link_libraries(testTaskMode
   ${catkin_LIBRARIES}
 )
+target_link_libraries(testTaskMode2
+  ${catkin_LIBRARIES}
+)
+
 
 #target_link_libraries(test_sample_mocap
   #quad_pos_ctrl

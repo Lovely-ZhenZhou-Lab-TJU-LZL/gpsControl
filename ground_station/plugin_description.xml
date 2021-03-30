@@ -1,0 +1,30 @@
+<library path="lib/libground_station">
+    <class name="ground_station/HomePoint"
+            type="ground_station::setHomePoint"
+            base_class_type="rviz::Tool">
+            <description>
+                A tool to set home point for uavs
+            </description>
+    </class>
+    <class name="ground_station/TakeOff"
+            type="ground_station::callTakeOff"
+            base_class_type="rviz::Tool">
+            <description>
+                A tool to takeoff uavs
+            </description>
+    </class>
+    <class name="ground_station/Land"
+            type="ground_station::callLand"
+            base_class_type="rviz::Tool">
+            <description>
+                A tool to land uavs
+            </description>
+    </class>
+    <class name="ground_station/Demo"
+            type="ground_station::callDemo"
+            base_class_type="rviz::Tool">
+            <description>
+                A tool to land uavs
+            </description>
+    </class>
+</library>
