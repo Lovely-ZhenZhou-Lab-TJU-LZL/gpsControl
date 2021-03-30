@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="quad_pos_ctrl" type="testTaskMode" name="testTaskMode"  output="screen">
+    <param name="uav_name" value= "vio_test" />
+    <param name="topic" value= "/vio_test_pos_ctrl_node/controller/ctrl_ref"/>
+    <param name="file" value= "/home/nx/work/control_ws/control_command_20m_0.8ms.bag"/>
+    <param name="take_off_altitude" value= "1.8"/>
+  </node>
+</launch>

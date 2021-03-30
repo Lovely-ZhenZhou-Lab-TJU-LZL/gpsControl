@@ -1,0 +1,30 @@
+plugin_blacklist:
+# common
+- safety_area
+- home_position
+- waypoint
+- sys_time
+# extras
+- image_pub
+- vibration
+
+- rangefinder
+- wheel_odometry
+
+- px4flow
+- cam_imu_sync
+- adsb
+- obstacle_distance
+- vfr_hud
+- param
+
+- gps
+- gps_rtk
+- odom
+- fake_gps
+- hil
+plugin_whitelist: 
+#- 'sys_*'
+#- distance_sensor
+#- gps
+- distance_sensor
